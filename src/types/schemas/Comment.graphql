@@ -1,0 +1,10 @@
+input CreateCommentInput {
+  text: String!
+  post: ID!
+}
+
+type Comment {
+  id: ID!
+  text: String!
+  post: Post!
+}

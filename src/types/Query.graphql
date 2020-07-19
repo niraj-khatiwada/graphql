@@ -1,0 +1,8 @@
+type Query {
+  me: User!
+  users: [User!]!
+  post(id: ID!): Post
+  posts: [Post!]!
+  comments: [Comment!]
+  comment(id: ID!): Comment!
+}

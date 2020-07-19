@@ -1,0 +1,14 @@
+input CreateUserInput {
+  email: String!
+  username: String!
+  age: Int
+}
+type User {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  age: Int
+  gpa: Float
+  pass: Boolean
+  posts: [Post!]
+}
